@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://imgur.com/exgEkg7)
+![screenshot](https://i.imgur.com/exgEkg7.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -60,7 +60,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
 
-Besides the stories to be completed, in the case of adding a icon the the button can go to the [googleIcons](https://fonts.google.com/icons) and search for the icon you want, then you just need to pass one the startIcon/endIcon prop the name of the icon that comes in the isertin the icon section: ![print](https://imgur.com/a/Os83gNL).
+Besides the stories to be completed, in the case of adding a icon the the button can go to the [googleIcons](https://fonts.google.com/icons) and search for the icon you want, then you just need to pass one the startIcon/endIcon prop the name of the icon that comes in the isertin the icon section: ![print](https://i.imgur.com/HmGCEww.png).
 This way you can easily change the icon to the one you need!
 
 I also made the Storybook optional storie, you just need to run the storybook on your computer.
