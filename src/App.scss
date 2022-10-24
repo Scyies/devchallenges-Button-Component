@@ -42,4 +42,11 @@ body {
     row-gap: 50px;
     align-items: center;
   }
+  .buttons-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+  }
 }

@@ -33,6 +33,10 @@
   }
 }
 
+.default-hover {
+  background-color: #aeaeae;
+}
+
 .primary {
   background-color: #3d5afe;
   color: white;
@@ -43,6 +47,10 @@
   }
 }
 
+.primary-hover {
+  background-color: #0039cb;
+}
+
 .secondary {
   color: white;
   background-color: #455a64;
@@ -51,6 +59,24 @@
   &:focus {
     background-color: #1c313a;
   }
+}
+
+.secondary-hover {
+  background-color: #1c313a;
+}
+
+.danger {
+  color: white;
+  background-color: #d32f2f;
+
+  &:hover,
+  &:focus {
+    background-color: #9a0007;
+  }
+}
+
+.danger-hover {
+  background-color: #9a0007;
 }
 
 .sm {
@@ -86,6 +112,10 @@
   }
 }
 
+.outline-hover {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
 .text {
   color: #3d5afe;
   background-color: transparent;
@@ -95,6 +125,10 @@
   &:focus {
     background-color: rgba(41, 98, 255, 0.1);
   }
+}
+
+.text-hover {
+  background-color: rgba(41, 98, 255, 0.1);
 }
 
 .noShadow {

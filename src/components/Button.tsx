@@ -4,11 +4,12 @@ import './Button.scss';
 export interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'default' | 'text' | 'outline';
   disableShadow?: boolean;
-  color?: 'default' | 'primary' | 'secondary';
+  color?: 'default' | 'primary' | 'secondary' | 'danger';
   children?: ReactNode;
   size?: 'sm' | 'md' | 'lg';
   startIcon?: string;
   endIcon?: string;
+  forceHover?: string;
 }
 
 export function Button({
@@ -19,13 +20,14 @@ export function Button({
   size = 'md',
   startIcon,
   endIcon,
+  forceHover,
   ...rest
 }: IProps) {
   return (
     <button
       className={`button ${variant} ${
         disableShadow && 'noShadow'
-      } ${color} ${size}`}
+      } ${color} ${size} ${forceHover}`}
       {...rest}
     >
       {startIcon && (

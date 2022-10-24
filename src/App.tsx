@@ -12,12 +12,24 @@ function App() {
           <Button />
         </div>
         <div>
+          <p>&:hover, &:focus</p>
+          <Button forceHover='default-hover' />
+        </div>
+        <div>
           <p>{'<Button variant="outline" />'}</p>
           <Button variant='outline' />
         </div>
         <div>
+          <p>&:hover, &:focus</p>
+          <Button variant='outline' forceHover='outline-hover' />
+        </div>
+        <div>
           <p>{'<Button variant="text" />'}</p>
           <Button variant='text' />
+        </div>
+        <div>
+          <p>&:hover, &:focus</p>
+          <Button variant='text' forceHover='text-hover' />
         </div>
       </div>
 
@@ -102,18 +114,44 @@ function App() {
       </div>
 
       <h2>Color Variants</h2>
-      <div className='buttons-3'>
+      <div className='buttons-4'>
         <div>
           <p>{"<Button color='default' />"}</p>
           <Button color='default' />
         </div>
         <div>
-          <p>{"<Button color='primary'>Primary</Button>"}</p>
+          <p>{"<Button color='primary'/>"}</p>
           <Button color='primary'>Primary</Button>
         </div>
         <div>
-          <p>{"<Button color='secondary'>Secondary</Button>"}</p>
+          <p>{"<Button color='secondary'/>"}</p>
           <Button color='secondary'>Secondary</Button>
+        </div>
+        <div>
+          <p>{"<Button color='danger'/>"}</p>
+          <Button color='danger'>Danger</Button>
+        </div>
+        <div>
+          <p>&:hover, &:focus</p>
+          <Button color='default' forceHover='default-hover' />
+        </div>
+        <div>
+          <p>&:hover, &:focus</p>
+          <Button color='primary' forceHover='primary-hover'>
+            Primary
+          </Button>
+        </div>
+        <div>
+          <p>&:hover, &:focus</p>
+          <Button color='secondary' forceHover='secondary-hover'>
+            Secondary
+          </Button>
+        </div>
+        <div>
+          <p>&:hover, &:focus</p>
+          <Button color='danger' forceHover='danger-hover'>
+            Danger
+          </Button>
         </div>
       </div>
     </div>

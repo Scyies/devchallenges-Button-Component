@@ -46,7 +46,7 @@ Here's my solution for the challenge!
 - It was a really interesting challenge, I decided to not use too many libraries that I often use such as tailwind to challenge further, and I really had a good time learning how to use [Storybook](https://storybook.js.org/)
 - So as I pray, unlimited bug works
 
-![screenshot](https://i.imgur.com/exgEkg7.png)
+![screenshot](https://i.imgur.com/oIAgl2W.png)
 
 ### Built With
 
