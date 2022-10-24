@@ -48,7 +48,7 @@ function App() {
           <Button startIcon='add_shopping_cart' />
         </div>
         <div>
-          <p>{"<Button startIcon='add_shopping_cart' />"}</p>
+          <p>{"<Button endIcon='add_shopping_cart' />"}</p>
           <Button endIcon='add_shopping_cart' />
         </div>
         <div>
@@ -56,7 +56,7 @@ function App() {
           <Button startIcon='payments' />
         </div>
         <div>
-          <p>{"<Button startIcon='payments' />"}</p>
+          <p>{"<Button endIcon='payments' />"}</p>
           <Button endIcon='payments' />
         </div>
         <div>
@@ -64,7 +64,7 @@ function App() {
           <Button startIcon='shopping_basket' />
         </div>
         <div>
-          <p>{"<Button startIcon='shopping_basket' />"}</p>
+          <p>{"<Button endIcon='shopping_basket' />"}</p>
           <Button endIcon='shopping_basket' />
         </div>
         <div>
@@ -72,7 +72,7 @@ function App() {
           <Button startIcon='add_card' />
         </div>
         <div>
-          <p>{"<Button startIcon='add_card' />"}</p>
+          <p>{"<Button endIcon='add_card' />"}</p>
           <Button endIcon='add_card' />
         </div>
         <div>
@@ -80,7 +80,7 @@ function App() {
           <Button startIcon='remove_shopping_cart' />
         </div>
         <div>
-          <p>{"<Button startIcon='remove_shopping_cart' />"}</p>
+          <p>{"<Button endIcon='remove_shopping_cart' />"}</p>
           <Button endIcon='remove_shopping_cart' />
         </div>
       </div>
