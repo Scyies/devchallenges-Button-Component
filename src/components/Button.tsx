@@ -2,7 +2,7 @@ import { ButtonHTMLAttributes, ReactNode } from 'react';
 import './Button.scss';
 
 export interface IProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'default' | 'text' | 'outline';
+  variant?: 'default' | 'text' | 'outline' | 'button-disabled';
   disableShadow?: boolean;
   color?: 'default' | 'primary' | 'secondary' | 'danger';
   children?: ReactNode;
