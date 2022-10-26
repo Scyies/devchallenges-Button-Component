@@ -37,12 +37,9 @@
 
 ## Overview
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
 Here's my solution for the challenge!
 
 - You can find my demo [here](https://devchallenges-button-one.vercel.app/)
-- What was your experience?
 - It was a really interesting challenge, I decided to not use too many libraries that I often use such as tailwind to challenge further, and I really had a good time learning how to use [Storybook](https://storybook.js.org/)
 - So as I pray, unlimited bug works
 
